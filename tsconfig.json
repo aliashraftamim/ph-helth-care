@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    /* File structure */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Module + Target */
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ES2020",
+    "typeRoots": ["./node_modules/@types"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Source maps and declarations */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    /* Strictness */
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* Optional stylistic settings */
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true
+  },
+
+  "ts-node": {
+    "esm": true
+  },
+
+  "include": ["src"]
+}
