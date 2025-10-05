@@ -8,6 +8,8 @@
     "dev": "tsx watch src/server.ts"
   },
   "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^24.6.2",
     "prisma": "^6.16.3",
@@ -16,6 +18,10 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "@prisma/client": "^6.16.3",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "http-status": "^2.1.0"
   }
 }
